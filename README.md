@@ -5,6 +5,7 @@ This is yii2 extention widget renders js slider [Swiper](https://github.com/noli
 This widget allows render slider in web page simply. Created for Yii2 framework.
 
 This widget is based on the work of [coderius](https://github.com/coderius/yii2-swiper-slider).
+
 The sole purpose of this repository is to upgrade the swiperjs library to the latest version.
 
 ![Yii2 swiper slider widget example](https://raw.githubusercontent.com/coderius/github-images/master/ezgif.com-gif-maker.gif "Yii2 swiper slider widget example")
