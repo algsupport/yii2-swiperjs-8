@@ -1,6 +1,6 @@
 <?php
 
-namespace algsupport/swiperjs8;
+namespace algsupport\swiperjs8;
 
 use Yii;
 
