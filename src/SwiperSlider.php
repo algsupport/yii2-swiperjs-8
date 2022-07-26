@@ -18,7 +18,7 @@ class SwiperSlider extends Widget
     const WIDGET_NAME = 'swiper';
     const JS_PLUGIN_NAME = 'Swiper';
 
-    const CONTAINER = 'container';
+    const CONTAINER = null;
     const WRAPPER = 'wrapper';
     const SLIDE = 'slide';
     const PAGINATION = 'pagination';
@@ -47,7 +47,7 @@ class SwiperSlider extends Widget
     {
         $prefix = $prefix ? '.' : '';
 
-        return $prefix.self::WIDGET_NAME.'-'.$itemName;
+        return $itemName ? $prefix.self::WIDGET_NAME.'-'.$itemName : $prefix.self::WIDGET_NAME;
     }
 
     /**
