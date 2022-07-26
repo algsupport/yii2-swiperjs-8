@@ -1,6 +1,6 @@
 <?php
 
-namespace algsupport\yii2swiperjs8;
+namespace algsupport\swiperjs8;
 
 use Closure;
 use yii\base\BaseObject;
