@@ -1,0 +1,60 @@
+{
+    "name": "algsupport/yii2-swiperjs-8",
+    "description": "yii2 swiper js 8 slider",
+    "keywords": [
+        "yii2",
+        "yii2 modules",
+        "yii2 extension",
+        "swiper",
+        "slider",
+        "yii2 slider"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Gukasian",
+            "email": "admin@algsupport.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8",
+        "yiisoft/yii2": "^2.0.0",
+        "npm-asset/swiper": "^8"
+   },
+    "autoload": {
+        "psr-4": {
+            "algsupport/yii2-swiperjs-8\\": "src"
+        }
+    },
+
+    "config": {
+        "fxp-asset": {
+            "installer-paths": {
+              "npm-asset-library": "vendor/npm",
+              "bower-asset-library": "vendor/bower"
+            }
+        },    
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        },
+        "asset-vcs-driver-options": {
+            "github-no-api": true
+        },
+        "asset-pattern-skip-version": "(-patch)"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+
+}
