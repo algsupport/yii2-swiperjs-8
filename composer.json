@@ -27,7 +27,7 @@
    },
     "autoload": {
         "psr-4": {
-            "algsupport/yii2swiperjs8\\": "src"
+            "algsupport/swiperjs8\\": "src"
         }
     },
 
