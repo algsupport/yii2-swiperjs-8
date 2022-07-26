@@ -38,7 +38,7 @@ In all files with widget put namespace to use class like:
 <?php
 namespace yournamespace
 
-use algsupport\yii2-swiperjs-8\SwiperSlider;
+use algsupport\swiperjs8\SwiperSlider;
 
 //Code ...
 ```
@@ -46,7 +46,7 @@ use algsupport\yii2-swiperjs-8\SwiperSlider;
 In view file render widget:
 ```
 <?php
-    echo \algsupport\yii2-swiperjs-8\SwiperSlider::widget([
+    echo \algsupport\swiperjs8\SwiperSlider::widget([
         'slides' => [
             'one',
             'two',
@@ -64,8 +64,8 @@ You can customize the parameters of the widget
 In view file render widget:
 ```
 <?php
-    echo \algsupport\yii2-swiperjs-8\SwiperSlider::widget([
-        // 'on ' . \algsupport\yii2-swiperjs-8\SwiperSlider::EVENT_AFTER_REGISTER_DEFAULT_ASSET => function(){
+    echo \algsupport\swiperjs8\SwiperSlider::widget([
+        // 'on ' . \algsupport\swiperjs8\SwiperSlider::EVENT_AFTER_REGISTER_DEFAULT_ASSET => function(){
         //     CustomAsset::register($view);
         // },
         'showScrollbar' => true,
