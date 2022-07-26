@@ -3,6 +3,7 @@
 namespace algsupport\swiperjs8;
 
 use yii\base\InvalidConfigException;
+use algsupport\swiperjs8\SwiperSliderAsset;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -24,7 +25,7 @@ class SwiperSlider extends Widget
     const BUTTON_NEXT = 'button-next';
     const SCROLLBAR = 'scrollbar';
 
-    const ASSET_DEFAULT = 'coderius\swiperslider\SwiperSliderAsset';
+    const ASSET_DEFAULT = SwiperSliderAsset::class;
 
     /**
      * Cdn base url.
