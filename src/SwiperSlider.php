@@ -4,6 +4,7 @@ namespace algsupport\swiperjs8;
 
 use yii\base\InvalidConfigException;
 use algsupport\swiperjs8\SwiperSliderAsset;
+use algsupport\swiperjs8\SlideDefault;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -105,7 +106,7 @@ class SwiperSlider extends Widget
      */
     protected $widgetId;
 
-    protected $slideClass = "coderius\swiperslider\SlideDefault";
+    protected $slideClass = SlideDefault::class;
 
     /**
      * {@inheritdoc}
