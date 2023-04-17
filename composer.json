@@ -23,7 +23,7 @@
     "require": {
         "php": ">=8",
         "yiisoft/yii2": "2.0.45",
-        "npm-asset/swiper": "8.3.1"
+        "npm-asset/swiper": "9.2.2"
    },
     "autoload": {
         "psr-4": {
