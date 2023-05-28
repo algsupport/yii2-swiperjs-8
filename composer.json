@@ -22,7 +22,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8",
-        "yiisoft/yii2": "2.0.45",
+        "yiisoft/yii2": "2.0.48",
         "npm-asset/swiper": "8.3.1"
    },
     "autoload": {
